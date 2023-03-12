@@ -28,13 +28,13 @@ body {
 }
 
 
-.mem_input:hover~.title_mem .mem-img {
+.mem_input:hover~.title_mem .mem_img {
     width: 100%;
     height: 50vh;
     transition: all 0.5s;
 }
 
-.mem_input:hover~.title_mem .title-str {
+.mem_input:hover~.title_mem .title_str {
     color: #7d0059;
 }
 
@@ -75,12 +75,12 @@ body {
         height: 0;
     }
 
-    .title-str {
+    .title_str {
         display: flex;
         justify-content: space-between;
     }
 
-    .mem-img {
+    .mem_img {
         display: flex;
         justify-content: center;
         width: 0;
@@ -95,77 +95,77 @@ body {
     }
 
 
-    .input-1:checked~.title_mem .title-str .mem_marker {
+    .input_1:checked~.title_mem .title_str .mem_marker {
         transform: rotate(45deg);
         transition: all 0.5s;
     }
 
-    .input-1:checked~.title_mem .title-str {
+    .input_1:checked~.title_mem .title_str {
         color: #7d0059;
     }
 
-    .input-1:checked~.title_mem .mem-img {
+    .input_1:checked~.title_mem .mem_img {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
     }
 
 
-    .input-2:checked~.title_mem .title-str .mem_marker {
+    .input_2:checked~.title_mem .title_str .mem_marker {
         transform: rotate(45deg);
         transition: all 0.5s;
     }
 
-    .input-2:checked~.title_mem .title-str {
+    .input_2:checked~.title_mem .title_str {
         color: #7d0059;
     }
 
-    .input-2:checked~.title_mem .mem-img {
+    .input_2:checked~.title_mem .mem_img {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
     }
 
-    .input-3:checked~.title_mem .title-str .mem_marker {
+    .input_3:checked~.title_mem .title_str .mem_marker {
         transform: rotate(45deg);
         transition: all 0.5s;
     }
 
-    .input-3:checked~.title_mem .title-str {
+    .input_3:checked~.title_mem .title_str {
         color: #7d0059;
     }
 
-    .input-3:checked~.title_mem .mem-img {
+    .input_3:checked~.title_mem .mem_img {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
     }
 
-    .input-4:checked~.title_mem .title-str .mem_marker {
+    .input_4:checked~.title_mem .title_str .mem_marker {
         transform: rotate(45deg);
         transition: all 0.5s;
     }
 
-    .input-4:checked~.title_mem .title-str {
+    .input_4:checked~.title_mem .title_str {
         color: #7d0059;
     }
 
-    .input-4:checked~.title_mem .mem-img {
+    .input_4:checked~.title_mem .mem_img {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
     }
 
-    .input-5:checked~.title_mem .title-str .mem_marker {
+    .input_5:checked~.title_mem .title_str .mem_marker {
         transform: rotate(45deg);
         transition: all 0.5s;
     }
 
-    .input-5:checked~.title_mem .title-str {
+    .input_5:checked~.title_mem .title_str {
         color: #7d0059;
     }
 
-    .input-5:checked~.title_mem .mem-img {
+    .input_5:checked~.title_mem .mem_img {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
@@ -194,7 +194,6 @@ body {
     label {
         cursor: pointer;
     }
-
 }
 
 @media (min-width:1920px) {
@@ -213,5 +212,4 @@ body {
         font-size: 3rem;
         line-height: 4rem;
     }
-
 }
