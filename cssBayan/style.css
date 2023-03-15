@@ -40,7 +40,6 @@ body {
 }
 
 
-
 @media (min-width:320px) {
     .wrap {
         padding: 0.625rem;
@@ -171,6 +170,26 @@ body {
         width: 100%;
         height: 50vh;
         transition: all 0.5s;
+    }
+
+    .input_1:active~.title_mem .title_str {
+        color: #fd8905;
+    }
+
+    .input_2:active~.title_mem .title_str {
+        color: #fd8905;
+    }
+
+    .input_3:active~.title_mem .title_str {
+        color: #fd8905;
+    }
+
+    .input_4:active~.title_mem .title_str {
+        color: #fd8905;
+    }
+
+    .input_5:active~.title_mem .title_str {
+        color: #fd8905;
     }
 }
 
